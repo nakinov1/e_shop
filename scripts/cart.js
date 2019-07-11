@@ -4,7 +4,7 @@ var cartTotalList = document.getElementById('cartTotalList');
 var cartTotal = document.getElementById('cartTotal');
 
 function getMyProducts() {
-  fetch('http://myjson.com/o7cjb')
+  fetch('https://github.com/nakinov1/e_shop/blob/master/json/myCartProducts.json')
   .then(function(response) {
     return response.json();
   })
