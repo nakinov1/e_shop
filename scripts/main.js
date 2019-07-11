@@ -2,7 +2,7 @@ var products = document.getElementById('products');
 var allProducts = [];
 
 function getAllProducts() {
-  fetch('http://myjson.com/n4c7r')
+  fetch('https://github.com/nakinov1/e_shop/blob/master/json/allProducts.json')
   .then(function(response) {
     return response.json();
   })
